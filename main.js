@@ -8,9 +8,9 @@ const year = document.getElementById('year');
 
 setInterval(()=>{
     const d = new Date();
-    hour.textContent = d.getHours();
-    min.textContent = d.getMinutes();
-    sec.textContent = d.getSeconds();
+    hour.textContent = d.getHours().toString().length === 1 ? '0'+d.getHours() : d.getHours();
+    min.textContent = d.getMinutes().toString().length === 1 ? '0'+d.getMinutes() : d.getMinutes();
+    sec.textContent = d.getSeconds().toString().length === 1 ? '0'+d.getSeconds() : d.getSeconds();
     date.textContent = d.getDate();
     month.textContent = findMonth(d.getMonth());
     day.textContent = getWeekDay(d.getDay());
