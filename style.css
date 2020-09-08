@@ -71,16 +71,6 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.month{
-    display: flex;
-    background-color: orange;
-    border-bottom: 2.5px solid black;
-    justify-content: center;
-    align-content: center;
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
 .day,.date,.year{
     display: flex;
     justify-content: center;
